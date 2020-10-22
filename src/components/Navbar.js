@@ -18,7 +18,7 @@ export default class Navbar extends Component {
           <input type="checkbox"
                     className="toggler">
           </input>
-          <AiOutlineMenu className="hamburger"/>
+          <AiOutlineMenu className="nav-icon"/>
         <div className="menu">
         <div>
         <div>

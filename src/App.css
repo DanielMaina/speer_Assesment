@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: rgba(13, 110, 139, 0.75);
+  --primary-color: rgba(255,255,255, 0.1);
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -32,15 +32,6 @@ body {
   overflow: hidden;
   padding: 0 3rem;
 }
-
-/* banner start */
-.banner {
-  color: #fff;
-  height: 100vh;
-  position: relative;
-}
-/* banner end */
-
 
 /* showcase */
 .showcase {
@@ -155,23 +146,19 @@ h6 {
   opacity: 0;
 }
 
-.menu-wrap .hamburger {
+/* Solution to navbar icon */
+.nav-icon {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
   width: 60px;
   height: 60px;
-  padding: 1rem;
-  background: var(--primary-color);
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* Solution to navbar icon */
-.nav-icon {
-  size: 2.5rem;
+  color: #fff;
 }
 
 /* Show Menu */
@@ -236,6 +223,12 @@ h6 {
   transition: color 0.4s ease;
 }
 /* end of show menu */
+
+/* Landing fix */
+.landing {
+  margin-top: -70px;
+}
+/* end of Landing fix */
 
 /* Banner */
 .banner {

@@ -4,7 +4,6 @@ $bg-color: #222;
   outline:0;
   border-radius: 50px;
   font-size: 0.8em;
-  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   letter-spacing: 4px;
@@ -90,19 +89,22 @@ $bg-color: #222;
   }
 }
 
-#btnLeft:active {
-  width: 70px;
-  height: 74px;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
 }
 
-.form {
-  margin: auto;
-  width: 100%;
-  max-width: 330px;
-  padding: 10px;
-  height: 100%;
+body {
+  background: $bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
-.formInput:focus {
-  @extend .form;
-  background-color: darkmagenta;
+
+a {
+  text-decoration: none;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import '../../custom/btn_custom.scss'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "../../custom/btn_custom.scss"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export const Banner = () => {
