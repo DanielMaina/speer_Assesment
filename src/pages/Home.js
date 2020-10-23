@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../components/Home/Carousel/Slider'
+import Red from '../components/Section_2/Red'
 // import Banner from "../components/Home/Banner";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,11 +12,13 @@ const images = [
 
 export default function Home() {
     return (
-        <div className="landing">
-             <Slider slides={images}
+        <div>
+            <div className="landing">
+            <Slider slides={images}
                     autoPlay={3}/>
-            {/* <Banner /> */}
-                
+            {/* <Banner /> */}                
+            </div>
+            <Red id="red"/>
         </div>
     )
 }

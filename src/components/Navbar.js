@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import '../App.css';
-import { AiOutlineMenu } from "react-icons/ai"
+import { AiOutlineMenu } from "react-icons/ai";
 
 
 
@@ -24,6 +24,9 @@ export default class Navbar extends Component {
         <div>
           <ul>
             <li><a href="/">Home</a></li>
+          </ul>
+          <ul>
+            <li><a href="#red">Red</a></li>
           </ul>
         </div>
       </div>

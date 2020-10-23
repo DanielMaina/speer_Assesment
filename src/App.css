@@ -10,7 +10,7 @@
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
-  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --overlay-color: rgba(24, 39, 51 , 0.9);
   --menu-speed: 0.75s;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
@@ -129,7 +129,7 @@ h6 {
 
 .menu-wrap-text {
   font-size: 3rem;
-  margin-left: 30%;
+  margin-left: 50%;
   margin-top: -5px;
   color: #fff;
 
@@ -185,21 +185,23 @@ h6 {
   visibility: hidden;
   overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
 
 .menu-wrap .menu > div {
   background: var(--overlay-color);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 40vw;
+  height: 40vw;
+  margin-left: -110px;
+  margin-top: -50px;
   display: flex;
   flex: none;
   align-items: center;
   justify-content: center;
-  transform: scale(0);
-  transition: all 0.4s ease;
+  transform: translateX(-100%) translateY(-100%);
+  transition: all 0.5s ease;
 }
 
 .menu-wrap .menu > div > div {
@@ -270,3 +272,10 @@ h6 {
   }
 }
 /* End of Banner */
+
+/* Red */
+  .red {
+    background: #D34848;
+    height: 100vh;
+  }
+/* end of Red*/
